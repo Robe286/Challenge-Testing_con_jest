@@ -1,4 +1,4 @@
-const { resetProducts,  addProduct, removeProduct, getProducts, getProduct, updateProduct} = require('./product');
+const { resetProducts,  addProduct, removeProduct, getProducts, getProduct, updateProduct} = require('./product.js');
 
 beforeEach(() => {
     resetProducts();

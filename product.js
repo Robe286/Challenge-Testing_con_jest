@@ -9,6 +9,10 @@ function resetProducts() {
     id = 0
 }
 
+function getProducts() {
+    return products
+}
+
 function addProduct({name, price}) {
     if (!name || !price) {
         throw new Error ('name and price must be defined')
@@ -58,6 +62,7 @@ module.exports = {
     removeProduct,
     getProduct,
     updateProduct,
+    getProducts,
 }
 
 /*
